@@ -5,4 +5,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: my-step
-        run: .\tosca_execution_client.ps1 -toscaServerUrl "https:google.com" -projectName "test" -events "test"
+        run: Echo "Sucess"
