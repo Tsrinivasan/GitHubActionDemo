@@ -5,4 +5,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: my-step
-        run: .\batfile.bat
+        run: .\tosca_execution_client.ps1 -toscaServerUrl <toscaServerUrl> -projectName <projectName> -events <events>
