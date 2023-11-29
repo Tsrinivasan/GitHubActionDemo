@@ -7,5 +7,5 @@ jobs:
       - name: my-step
        
         shell: cmd        
-        run: hostname
+        run: C:\batfile.bat
         
