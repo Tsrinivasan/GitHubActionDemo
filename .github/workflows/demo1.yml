@@ -7,5 +7,5 @@ jobs:
       - name: my-step
        
         shell: cmd        
-        run: C:\batfile.bat
+        run: testmo automation:run:submit --instance https://legogroup.testmo.net --project-id 26 --name "Tosca run" --source "Regression" --results c:\Tesmoresult.xml
         
